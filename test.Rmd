@@ -1,0 +1,38 @@
+---
+title: "Test"
+author: "Md. Farhan Hamid"
+date: "10/6/2021"
+output: pdf_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# R Markdown
+This is a Title
+
+
+This is a sample **paragraph**. 
+
+### A Sample List
+
+Three things: 
+
+- First  
+- Second  
+- Third  
+
+### Sample Code 
+```{r}
+print("Hello World!!")
+```
+
+## Including Plots
+
+Sample plot but from *default* code 
+
+```{r pressure, echo=FALSE}
+plot(pressure)
+```
+
